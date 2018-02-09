@@ -150,6 +150,15 @@ button {
     margin-top: 150px;
   }
 
+  .zip-code {
+    margin-top: 30px;
+  }
+
+  .zip {
+    margin-left: 90px;
+    display: inline-block;
+  }
+
   #topics {
     width: 95%;
   }

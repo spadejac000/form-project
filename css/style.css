@@ -9,10 +9,8 @@ form {
 header {
   background-color: #293444;
   color: white;
-  margin: none;
   width: 100%;
   text-align: center;
-  margin-bottom: none;
   font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -24,10 +22,18 @@ h1 {
   font-family: 'Barlow Condensed', sans-serif;
 }
 
+h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
 h4 {
   text-align: center;
   font-size: 30px;
   font-family: 'Barlow Condensed', sans-serif;
+}
+
+.legend {
+  width: 100%;
 }
 
 p {
@@ -83,7 +89,7 @@ select {
   background-color: lightgray;
   border-radius: 5px;
   border: none;
-  padding: 15px
+  padding: 15px;
   margin-bottom: 1em;
   width: 40%;
 }
@@ -164,12 +170,22 @@ button {
   }
 
   .zip-code {
-    margin-top: 30px;
+    margin-top: 4em;
+    float: left;
   }
 
   .zip {
     margin-left: 90px;
     display: inline-block;
+  }
+
+  .the-zip {
+    width: 30%;
+    margin-right: 0;
+  }
+
+  #zip {
+    float: right;
   }
 
   #topics {

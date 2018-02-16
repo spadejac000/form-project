@@ -22,16 +22,16 @@
 
       <main>
           <fieldset>
-            <h2 class="info"><legend>Contact Information</legend></h2>
+            <legend class="legend"><h2 class="info">Contact Information</h2></legend>
 
               <div class="label">
               <label for="name">Full Name</label>
-              <input class="typing float" type="text" id="name" name="user_name" /><br />
+              <input class="typing float" type="text" id="name" name="user_name" placeholder="required"/><br />
               </div>
 
               <div class="label">
               <label for="mail">Email Address</label>
-              <input class="typing float" type="email" id="mail" name="user_email" /><br />
+              <input class="typing float" type="email" id="mail" name="user_email" placeholder="required"/><br />
               </div>
 
               <div class="label">
@@ -50,7 +50,7 @@
               </div>
 
               <div class="label">
-              <label class="typing float" for="state">State</label>
+              <label class="typing" for="state">State</label>
               <select id="state" name="user_state">
                 <optgroup label="State">
                   <option value="choose">choose state</option>
@@ -107,14 +107,13 @@
               </select>
               </div>
 
-              <div class="label">
               <label class="zip-code" for="zip">Zip Code</label><br />
               <input class="zip" id="zip" name="user_zip" />
-              </div>
+
             </fieldset>
 
           <fieldset>
-            <h2 class="info"><legend>Newsletter</legend></h2>
+            <legend class="legend"><h2 class="info">Newsletter</h2></legend>
 
               <p>
                 Select the newsletters you would like to recieve

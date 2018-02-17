@@ -145,6 +145,10 @@ button {
     display: inline-block;
   }
 
+  input {
+    text-align: right;
+  }
+
   .float {
     float: right;
   }
